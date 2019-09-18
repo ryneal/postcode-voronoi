@@ -1,0 +1,22 @@
+{
+  "name": "postcode-voronoi",
+  "version": "1.0.0",
+  "description": "Generate Voronoi Cells from Postcode Data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/bbox": "^6.0.1",
+    "@turf/boolean-within": "^6.0.1",
+    "@turf/difference": "^6.0.2",
+    "@turf/helpers": "^6.1.4",
+    "@turf/intersect": "^6.1.3",
+    "@turf/mask": "^5.1.5",
+    "@turf/voronoi": "^5.1.5",
+    "csv-parser": "^2.2.0",
+    "fs": "0.0.1-security"
+  }
+}
